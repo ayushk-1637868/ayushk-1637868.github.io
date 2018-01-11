@@ -1,0 +1,41 @@
+/* External CSS - Ayush Kanthalia */
+
+body {
+	background-color: mediumseagreen;
+	font-family: "Times New Roman", Times, serif;
+	border: 5px solid red;
+	border-radius: 15px;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    outline-style: dotted;
+    outline-color: blue;
+}
+h1 {
+	color: orange;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: violet;
+}
+h2 {
+	text-transform: uppercase;
+}
+p {
+	font-style: italic;
+}
+ul {
+	font-style: italic;
+	list-style-type: circle;
+}
+img {
+	float: right;
+	border: 3px solid slateblue;
+	border-radius: 15px;
+	padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    outline-style: dotted;
+    outline-color: tomato;
+}
