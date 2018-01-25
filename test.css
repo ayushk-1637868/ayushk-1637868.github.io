@@ -8,9 +8,21 @@ p{
 	font-family: "Arial"
 }
 
-a{
+a:link{
 	color: white;
 	font-weight: bold;
+	font-size: 24px;
+}
+a:visited{
+	color: 805D15;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+a:hover{
+	color: hotpink;
+	font-weight: bold;
+	font-style: italic;
 	font-size: 24px;
 }
 
@@ -19,6 +31,7 @@ h3{
 	font-size: 40px;
 	font-family: "Passion One";
 	margin-bottom: 0px;
+	text-transform: uppercase;
 }
 
 li{
@@ -32,6 +45,7 @@ li{
 	margin-bottom: 10px;
 	border: solid 8px black;
 	text-align: center;
+	text-decoration: underline;
 }
 
 #Header h1{
@@ -73,6 +87,10 @@ li{
 	border: solid 8px black;
 	text-align: center;
 	padding: 15px;
+}
+
+#Content img{
+	border-radius: 15px;
 }
 
 #Footer{
